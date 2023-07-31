@@ -1,0 +1,54 @@
+input:hover {
+    background-color: aqua;
+}
+
+#div1 {
+    margin-left: 50px
+}
+
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+
+legend {
+    font-size:large;
+}
+
+#div2{
+    height: 80px;
+  position: relative;
+}
+
+button {
+    width: 200px; 
+    height: 50px; 
+    font-size: x-large; 
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -90%);
+}
+@media only screen and (max-width: 600px) {
+    #div1 {
+        margin-left: 0px;
+    }
+    
+    fieldset {
+        width: 60%;
+        margin:auto;
+        align-items: center;
+        text-align: center;
+    }
+    label {
+        text-align: center;
+    }
+    .radiolabel::after{
+        content: "\a";
+        white-space: pre;
+    }
+  }
